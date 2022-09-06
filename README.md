@@ -1,6 +1,6 @@
-# Jarot
+# ChenBOT - MD
 
-<img src="https://telegra.ph/file/696076406bf2516adb1fd.jpg" width="200" height="200"/>
+<img src="https://telegra.ph/file/2c2da795457035bba4d34.jpg" width="200" height="200"/>
 
 
 # NOTE: DILARANG MENJUAL BELIKAN SCRIPT 
