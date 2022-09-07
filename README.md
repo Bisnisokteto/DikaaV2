@@ -14,6 +14,15 @@
 <p align='center'>
     </p>
 
+<p align="center">
+<a href="https://github.com/Bisnisokteto"><img title="Author" src="https://img.shields.io/badge/Dikaa-Ofc-blue.svg?style=for-the-badge&logo=github"></a>
+ </p>
+ <h4 align="center">
+  <a
+  <a href="https://wa.me/6288223674569">If there is a need, you can directly chat with me </a>
+</h4>
+</p>
+
 ## about me
 I am Dika, I am 15 years old, I come from Indonesia, precisely in West Java, Cirebon. 
 
