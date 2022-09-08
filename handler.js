@@ -32,12 +32,12 @@ module.exports = {
         global.author = global.data.owner
         //global.author = '𝐟𝐚𝐫𝐡𝐚𝐧'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = 'ChenBOT - MD'
+        global.wm = 'Yansen Store'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'DikaaOfc'
+        global.colong2 = 'YansenStore'
         global.kontak2 = [
-        ['6288223674569', 'NainnOfc', '𝙿𝚎𝚗𝚐𝚎𝚖𝚋𝚊𝚗𝚐', 'Jangan lupa donasi ya kak >///<', true],
-        ['6288223674569', await this.getName('6288223674569@s.whatsapp.net'), 'Partner DikaaOfc', true], 
+        ['6285162963989', 'Yansen', '𝙿𝚎𝚗𝚐𝚎𝚖𝚋𝚊𝚗𝚐', 'Hallo im Yansen', true],
+        ['6285162963989', await this.getName('6288223674569@s.whatsapp.net'), 'Partner Yansen Store', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
