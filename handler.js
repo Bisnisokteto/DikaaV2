@@ -37,7 +37,7 @@ module.exports = {
         global.colong2 = 'YansenStore'
         global.kontak2 = [
         ['6285162963989', 'Yansen', '𝙿𝚎𝚗𝚐𝚎𝚖𝚋𝚊𝚗𝚐', 'Hallo im Yansen', true],
-        ['6285162963989', await this.getName('6288223674569@s.whatsapp.net'), 'Partner Yansen Store', true], 
+        ['6285162963989', await this.getName('6285860234943@s.whatsapp.net'), 'Partner Yansen Store', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
