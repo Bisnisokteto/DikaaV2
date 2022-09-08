@@ -31,13 +31,13 @@ global.APIKeys = { // APIKey Here
   'https://api.adiofficial.xyz': 'apikey lu'
 }
 
-//global.wm = 'ChenBOT - MD'
+//global.wm = 'Yansen-Store'
 global.wait = '_*𝒔𝒆𝒅𝒂𝒏𝒈 𝒅𝒊 𝒑𝒓𝒐𝒔𝒆𝒔...*_'
 global.eror = '_*𝒎𝒂𝒂𝒇 𝒔𝒆𝒓𝒗𝒆𝒓 𝒆𝒓𝒓𝒐𝒓...*_'
 
 //========Url Template Buttons=========//
 global.dtu = 'Group bot'
-global.urlnya = "https://chat.whatsapp.com/KLfJ0fI1UnCLhRtv2aYoxv"
+global.urlnya = "https://chat.whatsapp.com/FYeuvCrrOMcLZVfmzycYUj"
 
 //============= callButtons =============//
 global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
