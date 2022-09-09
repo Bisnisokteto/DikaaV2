@@ -23,10 +23,12 @@ const defaultMenu = {
 ┏┤   *Bot info*
 ┆┗──────────────┈ ⳹
 ┆⬡ *Uptime* : %uptime
-┆⬡ *Run Bot* : Heroku
+┆⬡ *Run Bot* : Panel/RDP
 ┆⬡ *Bailyes Version* : 4.2.0
 ┆⬡ *Database* : %rtotalreg dari %totalreg
 ┆⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+┆⬡ *Yt* :
+┆⬡ https://youtu.be/XYIdel2-bR8
 ┗─────────────────⬣
 %readmore`.trim(),
   header: '┏━┈┈『 %category 』┈┈⬣',
@@ -199,30 +201,30 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: 'list menu Yansen',
+        title: 'list menu Yansen Store',
         rows: [
-          { title: 'ALL MENU📋', rowId: `${_p}? all` },
+          { title: 'ALL MENU 📋', rowId: `${_p}? all` },
           { title: 'GAME 🎮', rowId: `${_p}? game` },
-          { title: 'XP 📈', rowId: `${_p}? xp` },
-          { title: 'STIKER 🐲', rowId: `${_p}? stiker` },
-          { title: 'KERANG AJAIB 🐚', rowId: `${_p}? kerangajaib` },
+          { title: 'XP 📈҈ ', rowId: `${_p}? xp` },
+          { title: 'STIKER 🐲҈', rowId: `${_p}? stiker` },
+          { title: 'KERANG AJAIB 🐚҈', rowId: `${_p}? kerangajaib` },
           { title: 'QUOTES 🗣️', rowId: `${_p}? quotes` },
-          { title: 'GROUP MENU 👥', rowId: `${_p}? grup` },
-          { title: 'PREMIUM MENU🥨', rowId: `${_p}? premium` },
-          { title: '18 🏋️', rowId: `${_p}? bebanortu` },
-          { title: 'INTERNET 🛣️', rowId: `${_p}? internet` },
-          { title: 'ANONYMOUS 🎭', rowId: `${_p}? anonymous` },
-          { title: 'LOGO & NULIS MENU ☯️', rowId: `${_p}? nulis` },
-          { title: 'DOWNLOAD MENU 🌍', rowId: `${_p}? downloader` },
+          { title: 'GRUP MENU 👥҈', rowId: `${_p}? grup` },
+          { title: 'PREMIUM MENU 🥨', rowId: `${_p}? premium` },
+          { title: 'BEBAN ORTU MENU 🏋️', rowId: `${_p}? bebanortu` },
+          { title: 'INTERNET 🛣️҈', rowId: `${_p}? internet` },
+          { title: 'ANONYMOUS 🎭҈', rowId: `${_p}? anonymous` },
+          { title: 'LOGO & NULIS MENU ☯️҈', rowId: `${_p}? nulis` },
+          { title: 'DOWNLOADER 🌍҈', rowId: `${_p}? downloader` },
           { title: 'TOOLS 🛠️', rowId: `${_p}? tools` },
           { title: 'FUN MENU 🎰', rowId: `${_p}? fun`},
-          { title: 'DATABASE 📂', rowId: `${_p}? database` },
-          { title: 'VOTE & ABSD 🗣️', rowId: `${_p}? vote` },
-          { title: 'AL-QURAN MENU 📖', rowId: `${_p}? quran` },
+          { title: 'DATABASE 📂҈', rowId: `${_p}? database` },
+          { title: 'VOTE & ABSDN 🗣️҈', rowId: `${_p}? vote` },
+          { title: 'AL-QUR\'AN 📖', rowId: `${_p}? quran` },
           { title: 'PENGUBAH SUARA 🔊', rowId: `${_p}? audio` },
-          { title: 'JADI BOR(perbaikan)', rowId: `${_p}? jadibot` },
+          { title: 'JADIBOT(perbaikan)', rowId: `${_p}? jadibot` },
           { title: 'INFO 🏢', rowId: `${_p}? info` },
-          { title: 'LAIN-LAIN 🛴', rowId: `${_p}? tanpakategori` },
+          { title: 'LAIN LAIN 🛴҈', rowId: `${_p}? tanpakategori` },
           { title: 'OWNER ⛄', rowId: `${_p}? owner` },
         ]
       }
